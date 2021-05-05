@@ -11,7 +11,7 @@ docker-compose.ymlのMYSQL_DATABASEのdbNameを<作成したいDBの名前>に�
 ## docker compose
 ```
 cd djangoDocker
-docker-compose run python django-admin.py startproject <作成したいプロジェクト名> .
+docker-compose run python django-admin.py startproject app .
 ```
 ### settings.pyを変更
 まずは、下記を追加します。
