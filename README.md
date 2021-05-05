@@ -58,6 +58,10 @@ docker-compose run python ./manage.py createsuperuser
 ```
 docker-compose run python ./manage.py collectstatic
 ```
+## コンテナを起動
+```
+docker-compose up -d
+```
 ## ページに遷移して確認
 http://localhost:8000/admin
 に遷移してアクセスできれば完了です。
