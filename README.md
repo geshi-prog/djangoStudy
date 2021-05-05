@@ -65,3 +65,9 @@ docker-compose up -d
 ## ページに遷移して確認
 http://localhost:8000/admin
 に遷移してアクセスできれば完了です。
+ ## 最後にmysqlをgitignoreに追加
+ .gitignoreに
+ ```
+ mysql/*
+ ```
+ を追加します。
