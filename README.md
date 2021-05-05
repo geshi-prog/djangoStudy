@@ -57,4 +57,5 @@ docker-compose run python ./manage.py createsuperuser
 docker-compose run python ./manage.py collectstatic
 ```
 ## ページに遷移して確認
-http://localhost:8000/adminに遷移してアクセスできれば完了です。
+http://localhost:8000/admin
+に遷移してアクセスできれば完了です。
